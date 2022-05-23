@@ -17,6 +17,7 @@ function authentication(req, res, next){
     })
 }
 
+
 // GET
 router.get('/', authentication, async (req, res) => {
 
